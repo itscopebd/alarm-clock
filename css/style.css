@@ -75,13 +75,16 @@ button{
 }
 
 @media(max-width:575px) {
+    .container {
+        width: 90%;
+    }
     .content__wrapper {
         width: 100%;
         padding: 50px 10px;
 
     }
     button {
-        width: 100%;
+        width: 80%;
     }
     select {
         margin-top: 10px;
