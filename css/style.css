@@ -1,3 +1,12 @@
+body {
+    background: #4e724e;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container{
     width: 50%;
     margin: 0 auto;
@@ -20,8 +29,9 @@ img{
     margin: auto;
     border-radius: 10px;
 }
-.time__show{
-    font-size: 20px;
+.time__show {
+    font-size: 30px;
+    margin: 20px;
 }
 select{
     padding: 10px 8px;
@@ -48,4 +58,32 @@ button{
 .reset__alarm{
     display: none;
     background-color: tomato;
+}
+
+@media(max-width:767px) {
+    .content__wrapper {
+        width: 100%;
+        padding: 50px 10px;
+
+    }
+    button {
+        width: 41%;
+    }
+    img {
+        width: 75%;
+    }
+}
+
+@media(max-width:575px) {
+    .content__wrapper {
+        width: 100%;
+        padding: 50px 10px;
+
+    }
+    button {
+        width: 100%;
+    }
+    select {
+        margin-top: 10px;
+    }
 }
